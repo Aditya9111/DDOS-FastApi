@@ -18,9 +18,6 @@ classifier = pickle.load(pickle_in)
 # def index():
 #     return {'message': 'Hello, World'}
 
-# 4. Route with a single parameter, returns the parameter within a message
-#    Located at: http://127.0.0.1:8000/AnyNameHere
-
 
 @app.post('/predict')
 def predict_ddos(data: DDOS):

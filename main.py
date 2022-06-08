@@ -21,7 +21,7 @@ def index():
 
 @app.get('/Welcome')
 def get_name(name: str):
-    return {'Welcome To Krish Youtube Channel': f'{name}'}
+    return {'Welcome': f'{name}'}
 
 
 # 5. Run the API with uvicorn
